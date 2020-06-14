@@ -35,6 +35,8 @@ Will return a region with the given id
 
 Will return a list of campsites in a region with the given id
 
+[alternatively, include an array of associated campsite names in the `/regions/<id>` GET response]
+
 #### Response
 
 * `id`
@@ -58,3 +60,5 @@ Will return a campsite with the given id
 * `rating`: integer between 1 and 5
 * `contact_no`: integer with 11 characters
 * `contact_email`: string
+
+[consider returning a full address single response using API resources]
