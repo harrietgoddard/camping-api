@@ -4,7 +4,7 @@ namespace App\Http\Resources\API;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class RegionResource extends JsonResource
+class RegionsResource extends JsonResource
 {
     /**
      * Transform the resource into an array.
@@ -16,11 +16,7 @@ class RegionResource extends JsonResource
     {
         return [
             "id" => $this->id,
-            "campsite_name" => $this->campsite_name,
-            "price" => $this->formatPrice(),
-            "town_city" => $this->town_city,
-            "amenities" => $this->formatAmenities(),
-            "rating" => $this->rating
+            "region_name" => $this->region_name
         ];
     }
 }

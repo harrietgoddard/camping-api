@@ -5,6 +5,7 @@ namespace App\Http\Controllers\API;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Region;
+use App\Http\Resources\API\RegionsResource;
 
 class Regions extends Controller
 {
@@ -15,7 +16,7 @@ class Regions extends Controller
      */
     public function index()
     {
-        return Region::all();
+        return RegionsResource::collection(Region::all());
     }
 
     /**

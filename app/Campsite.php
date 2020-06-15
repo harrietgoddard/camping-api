@@ -15,4 +15,9 @@ class Campsite extends Model
     {
         return explode(", ", $this->amenities);
     }
+
+    public function formatPrice()
+    {
+        return "£" . number_format($this->price, 2, '.', '');
+    }
 }

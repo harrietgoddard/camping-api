@@ -5,6 +5,7 @@ namespace App\Http\Controllers\API;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Campsite;
+use App\Http\Resources\API\CampsitesResource;
 
 class Campsites extends Controller
 {
@@ -37,7 +38,7 @@ class Campsites extends Controller
      */
     public function show(Campsite $campsite)
     {
-        return $campsite;
+        return new CampsitesResource($campsite);
     }
 
     /**
