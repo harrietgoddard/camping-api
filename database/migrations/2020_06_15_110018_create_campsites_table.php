@@ -44,15 +44,15 @@ class CreateCampsitesTable extends Migration
 /*
 $campsite = new Campsite();
 $campsite->region_id = 2;
-$campsite->campsite_name = "Hawk Place Campsite";
-$campsite->price = 26.80;
-$campsite->description = "Hawk place has the best of both worlds, it is situated a stones through from the sea as well as having miles and miles of uninterupted countryside to walk, cycle or horse ride through. As well as there are frequent stunning sunsets - maybe this is why J M W Turner was drawn to the area to create some of his best sunset paintings. Birchington is only 1.5 miles away with a few local shops and restaurants.";
-$campsite->address = "Dane Road";
-$campsite->town_city = "Birchington";
-$campsite->postcode = "CT7 9QS";
-$campsite->amenities = "Toilets";
-$campsite->rating = 3;
-$campsite->contact_no = "01843847142"
-$campsite->contact_email = "info@eastkentcamping.co.uk"
+$campsite->campsite_name = "Pleasant Streams Farm Camping";
+$campsite->price = 29;
+$campsite->description = "We are tucked away in the countryside in mid Cornwall, a great base to explore the beautiful Cornish coast and attractions from. Our location is very quiet and peaceful, yet we are close to a village and town that provides for all your practical needs. The nearest beach is only a 10-minute drive and we’re at the gateway to the beautiful Roseland peninsular with more stunning beaches and pretty villages to explore. Please see the ‘In the area’ page for more details on local attractions.";
+$campsite->address = "St Ewe";
+$campsite->town_city = "Saint Austell";
+$campsite->postcode = "PL26 7JL";
+$campsite->amenities = "Toilets, cafe, hotub";
+$campsite->rating = 5;
+$campsite->contact_no = "0172674837"
+$campsite->contact_email = "info@cornwallfarmcamping.co.uk"
 $campsite->save();
 */
