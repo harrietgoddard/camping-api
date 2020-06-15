@@ -1,4 +1,4 @@
-# [happy.camper]
+# happy.camper
 API containing useful information on a selection of campsites across the UK
 
 ## General
@@ -18,47 +18,38 @@ Will return a list of regions in the UK
 #### Response (for each region)
 
 * `id`
-* `region`: string - name of region
+* `region_name`: string
 
 ### `GET /regions/<id>`
 
-Will return a region with the given id
+Will return a summary list of campsites associated with a region with the given id
 
 #### Response
 
 * `id`
-* `region`: string - name of region
+* `campsite_name`: string
+* `price`: string (formatted, for example £25.50)
+* `town_city`: string
+* `amenities`: array of strings
+* `rating`: integer between 1 and 5
 
 ### Campsites
 
-### `GET /regions/<id>/campsites`
-
-Will return a list of campsites in a region with the given id
-
-[alternatively, include an array of associated campsite names in the `/regions/<id>` GET response]
-
-#### Response
-
-* `id`
-* `campsite_name`: string
-* `description`: string
-
 ### `GET /campsites/<id>`
 
-Will return a campsite with the given id
+Will return campsite with the given id
 
 #### Response
 
 * `id`
+* `region_id`
 * `campsite_name`: string
+* `price` : string (formatted, for example £25.50)
 * `description`: string
-* `address_1`: string
-* `address_2`: string
+* `address`: string
 * `town_city`: string
 * `postcode`: string
-* `amenities`: string
+* `amenities`: array of strings
 * `rating`: integer between 1 and 5
-* `contact_no`: integer with 11 characters
+* `contact_no`: string
 * `contact_email`: string
-
-[consider returning a full address single response using API resources]
