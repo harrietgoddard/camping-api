@@ -17,3 +17,8 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+
+Route::get('regions', 'API\Regions@index');
+Route::get('regions/{region}', 'API\Regions\Campsites@index');
+Route::get('campsites/{campsite}', 'API\Campsites@show');

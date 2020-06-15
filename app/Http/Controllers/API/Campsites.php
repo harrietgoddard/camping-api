@@ -4,7 +4,7 @@ namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Campsite;
+use App\Campsite;
 
 class Campsites extends Controller
 {
@@ -62,4 +62,5 @@ class Campsites extends Controller
     {
         //
     }
+
 }

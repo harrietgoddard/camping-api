@@ -4,8 +4,9 @@ namespace App\Http\Controllers\API\Regions;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use Region;
-use Campsite;
+use App\Region;
+use App\Campsite;
+use App\Http\Resources\API\RegionResource;
 
 class Campsites extends Controller
 {
@@ -16,7 +17,7 @@ class Campsites extends Controller
      */
     public function index(Region $region)
     {
-        return $region->campsites;
+        return RegionResource::collection($region->campsites);
     }
 
     /**

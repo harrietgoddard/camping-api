@@ -44,15 +44,15 @@ class CreateCampsitesTable extends Migration
 /*
 $campsite = new Campsite();
 $campsite->region_id = 1;
-$campsite->campsite_name = "Henry's Campsite";
-$campsite->price = 25;
-$campsite->description = "We’re situated in a rural area, with a spectacular sea view and sunsets, at the top of caerthillian valley within a couple of minutes walk from the village centre and ten minutes walk to the coastal paths. there are many inland paths to bring you back into the village centre from all directions along the coastal paths and beaches.";
-$campsite->address = "The Lizard";
-$campsite->town_city = "Helston";
-$campsite->postcode = "TR12 7NX";
-$campsite->amenities = "Showers, toilets, cafe";
-$campsite->rating = 3;
-$campsite->contact_no = "01326290596"
-$campsite->contact_email = "info@henryscampsite.co.uk"
+$campsite->campsite_name = "Pleasant Streams Farm Camping";
+$campsite->price = 20;
+$campsite->description = "We are tucked away in the countryside in mid Cornwall, a great base to explore the beautiful Cornish coast and attractions from. Our location is very quiet and peaceful, yet we are close to a village and town that provides for all your practical needs. The nearest beach is only a 10-minute drive and we’re at the gateway to the beautiful Roseland peninsular with more stunning beaches and pretty villages to explore. Please see the ‘In the area’ page for more details on local attractions.";
+$campsite->address = "St Ewe";
+$campsite->town_city = "Saint Austell";
+$campsite->postcode = "PL26 7JL";
+$campsite->amenities = "Picnic tables, toilets, firepits";
+$campsite->rating = 4;
+$campsite->contact_no = "0172674837"
+$campsite->contact_email = "info@cornallfarmcamping.co.uk"
 $campsite->save();
 */
