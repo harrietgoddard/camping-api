@@ -53,3 +53,18 @@ Will return campsite with the given id
 * `rating`: integer between 1 and 5
 * `contact_no`: string
 * `contact_email`: string
+
+### Reviews
+
+### `GET /campsites/<id>/reviews`
+
+Will return a list of reviews associated with a campsite with the given id
+
+### Response
+
+* `id`
+* `campsite_id`
+* `date_posted`: format DD Month YYYY HH:MM
+* `username`: string
+* `rating`: integer between 1 and 5
+* `review_description`: string
