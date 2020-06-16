@@ -380,7 +380,21 @@ class DatabaseSeeder extends Seeder
                 'rating' => 4,
                 'review_description' => 'Great campsite - beautiful views and good facilities. Staff really friendly too',
                 'created_at' => Carbon::now()->format('Y-m-d H:i:s')
-            ]
+            ],
+            [
+                'campsite_id' => 1,
+                'username' => 'bobthecamper',
+                'rating' => 5,
+                'review_description' => "Loved this place - beautiful setting, nice and peaceful",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 2,
+                'username' => 'iliketocamp',
+                'rating' => 3,
+                'review_description' => "Good facilities but pretty close to a busy road which is a shame. Friendly staff",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
         ]);
 
     }

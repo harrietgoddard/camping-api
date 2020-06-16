@@ -17,7 +17,7 @@ class ReviewResource extends JsonResource
         return [
             "id" => $this->id,
             "campsite_id" => $this->campsite_id,
-            "date-posted" => $this->created_at->format('j F Y H:i'),
+            "date_posted" => $this->created_at->format('j F Y H:i'),
             "username" => $this->username,
             "rating" => $this->rating,
             "review_description" => $this->review_description
