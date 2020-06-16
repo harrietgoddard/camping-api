@@ -16,8 +16,8 @@ class DatabaseSeeder extends Seeder
             ['region_name' => 'South West'],
             ['region_name' => 'South East'],
             ['region_name' => 'West Midlands'],
-            ['region_name' => 'East Midlands']
-            ['region_name' => 'East Anglia']
+            ['region_name' => 'East Midlands'],
+            ['region_name' => 'East Anglia'],
             ['region_name' => 'Wales']
         ]);
         
@@ -332,7 +332,7 @@ class DatabaseSeeder extends Seeder
                 "region_id" => 6,
                 "campsite_name" => "Meadow Farm campsite",
                 "price" => 19.90,
-                "description" => "We are a small family site situated at the top of the Northcliffe, with spectacular panoramic views overlooking the historic town of Tenby, it's Blue Flag Beaches, Harbour and of course the renowned "Caldey Island" where the Cistercian monks continue a tradition which began back in Celtic times. There are daily boat trips to the Island from Tenby Harbour....well worth a visit.  When you stay with us you will be a mere 5 minutes walk from the beach and 10 minutes from town, where there are pubs, cafe's, restaurants and shops aplenty. Meadow Farm is right on the Pembrokeshire Coastal path, which is well known as one of the best coastal walks in Britain.",
+                "description" => "We are a small family site situated at the top of the Northcliffe, with spectacular panoramic views overlooking the historic town of Tenby, it's Blue Flag Beaches, Harbour and of course the renowned 'Caldey Island' where the Cistercian monks continue a tradition which began back in Celtic times. There are daily boat trips to the Island from Tenby Harbour....well worth a visit.  When you stay with us you will be a mere 5 minutes walk from the beach and 10 minutes from town, where there are pubs, cafe's, restaurants and shops aplenty. Meadow Farm is right on the Pembrokeshire Coastal path, which is well known as one of the best coastal walks in Britain.",
                 "address" => "St Ewe",
                 "town_city" => "Saint Austell",
                 "postcode" => "PL26 7JL",
