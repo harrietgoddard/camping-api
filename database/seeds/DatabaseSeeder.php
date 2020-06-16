@@ -12,5 +12,10 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // $this->call(UserSeeder::class);
+        DB::table('regions')->insert([
+            ['region_name' => 'North West'],
+            ['region_name' => 'North East']
+        ]);
+
     }
 }
