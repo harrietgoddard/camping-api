@@ -372,5 +372,14 @@ class DatabaseSeeder extends Seeder
             ],
         ]);
 
+        DB::table('reviews')->insert([
+            [
+                'campsite_id' => 1,
+                'username' => 'mad4camping',
+                'rating' => 4,
+                'review_description' => 'Great campsite - beautiful views and good facilities. Staff really friendly too'
+            ]
+        ]);
+
     }
 }

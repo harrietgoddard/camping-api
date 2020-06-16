@@ -19,7 +19,7 @@ class CreateReviewsTable extends Migration
             $table->foreign('campsite_id')->references('id')->on('campsites')->onDelete('cascade');
             $table->string('username', 50)->nullable();
             $table->enum('rating', [1, 2, 3, 4, 5])->nullable();
-            $table->text('desription')->nullable();
+            $table->text('review_description')->nullable();
             $table->timestamps();
         });
     }
