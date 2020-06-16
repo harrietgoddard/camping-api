@@ -14,6 +14,11 @@ class Campsite extends Model
         return $this->belongsTo(Region::class);
     }
 
+    public function reviews()
+    {
+        return $this->hasMany(Review::class);
+    }
+
     public function formatAmenities()
     {
         return explode(", ", $this->amenities);
