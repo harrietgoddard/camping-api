@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Carbon\Carbon;
 
 class DatabaseSeeder extends Seeder
 {
@@ -377,7 +378,8 @@ class DatabaseSeeder extends Seeder
                 'campsite_id' => 1,
                 'username' => 'mad4camping',
                 'rating' => 4,
-                'review_description' => 'Great campsite - beautiful views and good facilities. Staff really friendly too'
+                'review_description' => 'Great campsite - beautiful views and good facilities. Staff really friendly too',
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
             ]
         ]);
 
