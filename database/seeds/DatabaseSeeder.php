@@ -29,7 +29,8 @@ class DatabaseSeeder extends Seeder
                 "amenities" => "Showers, toilets, cafe",
                 "rating" => 5,
                 "contact_no" => "01326290596",
-                "contact_email" => "info@henryscampsite.co.uk"
+                "contact_email" => "info@henryscampsite.co.uk",
+                "img" => "https://source.unsplash.com/300x300/?camping"
             ],
             [
                 "region_id" => 1,
@@ -42,7 +43,8 @@ class DatabaseSeeder extends Seeder
                 "amenities" => "Toilets, firepits, picnic tables",
                 "rating" => 4,
                 "contact_no" => "0172674837",
-                "contact_email" => "info@cornwallfarmcamping.co.uk"
+                "contact_email" => "info@cornwallfarmcamping.co.uk",
+                "img" => "https://source.unsplash.com/300x300/?camping"
             ],
             [
                 "region_id" => 1,
@@ -55,7 +57,8 @@ class DatabaseSeeder extends Seeder
                 "amenities" => "Showers, toilets, picnic tables",
                 "rating" => 3,
                 "contact_no" => "01271882334",
-                "contact_email" => "relax@newberryvalleypark.co.uk"
+                "contact_email" => "relax@newberryvalleypark.co.uk",
+                "img" => "https://source.unsplash.com/300x300/?camping"
             ],
             [
                 "region_id" => 1,
@@ -68,7 +71,8 @@ class DatabaseSeeder extends Seeder
                 "amenities" => "Toilets",
                 "rating" => 2,
                 "contact_no" => "01749675247",
-                "contact_email" => "pinetreefarmcamping@gmail.com"
+                "contact_email" => "pinetreefarmcamping@gmail.com",
+                "img" => "https://source.unsplash.com/300x300/?camping"
             ],
             [
                 "region_id" => 2,
@@ -81,7 +85,8 @@ class DatabaseSeeder extends Seeder
                 "amenities" => "showers, toilets, drinking water, wifi",
                 "rating" => 4,
                 "contact_no" => "01765982347",
-                "contact_email" => "inwoodcamping@gmail.com"
+                "contact_email" => "inwoodcamping@gmail.com",
+                "img" => "https://source.unsplash.com/300x300/?camping"
             ],
             [
                 "region_id" => 2,
@@ -94,7 +99,8 @@ class DatabaseSeeder extends Seeder
                 "amenities" => "showers, toilets, cold water, hard standing, electricity points, onsite shop",
                 "rating" => 5,
                 "contact_no" => "01296668455",
-                "contact_email" => "townfarmcampsite@gmail.com"
+                "contact_email" => "townfarmcampsite@gmail.com",
+                "img" => "https://source.unsplash.com/300x300/?camping"
             ],
             [
                 "region_id" => 2,
@@ -107,7 +113,8 @@ class DatabaseSeeder extends Seeder
                 "amenities" => "toilets, cold water, laundry, pets welcome",
                 "rating" => 3,
                 "contact_no" => "07765363546",
-                "contact_email" => "enquiries@battenhurstandcairds.com"
+                "contact_email" => "enquiries@battenhurstandcairds.com",
+                "img" => "https://source.unsplash.com/300x300/?camping"
             ],
             [
                 "region_id" => 2,
@@ -120,7 +127,8 @@ class DatabaseSeeder extends Seeder
                 "amenities" => "showers, lounge, household power, barbeque",
                 "rating" => 4,
                 "contact_no" => "01843847142",
-                "contact_email" => "info@eastkentcamping.co.uk"
+                "contact_email" => "info@eastkentcamping.co.uk",
+                "img" => "https://source.unsplash.com/300x300/?camping"
             ],
         ]);
 

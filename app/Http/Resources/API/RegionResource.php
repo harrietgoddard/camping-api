@@ -20,7 +20,8 @@ class RegionResource extends JsonResource
             "price" => $this->formatPrice(),
             "town_city" => $this->town_city,
             "amenities" => $this->formatAmenities(),
-            "rating" => +$this->rating
+            "rating" => +$this->rating,
+            "img" => $this->img
         ];
     }
 }
