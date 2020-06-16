@@ -6,6 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Campsite extends Model
 {
+
+    protected $fillable = ["region_id", "campsite_name", "price", "description", "address", "town_city", "postcode", "amenities", "rating", "contact_no", "contact_email", "img"];
+
     public function region()
     {
         return $this->belongsTo(Region::class);
