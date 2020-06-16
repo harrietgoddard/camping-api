@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Campsite;
 use App\Review;
+use App\Http\Resources\API\ReviewResource;
 
 class Reviews extends Controller
 {
@@ -16,7 +17,7 @@ class Reviews extends Controller
      */
     public function index(Campsite $campsite)
     {
-        return $campsite->reviews;
+        return ReviewResource::collection($campsite->reviews);
     }
 
     /**
