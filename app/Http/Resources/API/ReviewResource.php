@@ -19,7 +19,7 @@ class ReviewResource extends JsonResource
             "campsite_id" => $this->campsite_id,
             "date_posted" => $this->created_at->format('j F Y H:i'),
             "username" => $this->username,
-            "rating" => $this->rating,
+            "rating" => +$this->rating,
             "review_description" => $this->review_description
         ];
     }
