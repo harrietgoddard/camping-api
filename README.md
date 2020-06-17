@@ -68,3 +68,14 @@ Will return a list of reviews associated with a campsite with the given id
 * `username`: string
 * `rating`: integer between 1 and 5
 * `review_description`: string
+
+### Amenities
+
+### `GET /amenities`
+
+Will return a list of all available amenities in the data base
+
+### Response
+
+* `id`
+* `amenity_name`: string
