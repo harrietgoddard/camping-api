@@ -28,7 +28,9 @@ class CampsitesResource extends JsonResource
             "rating" => +$this->rating,
             "contact_no" => $this->contact_no,
             "contact_email" => $this->contact_email,
-            "img" => $this->img
+            "img" => $this->img,
+            "latitude" => +$this->latitude,
+            "longitude" => +$this->longitude
         ];
     }
 }
