@@ -23,3 +23,4 @@ Route::get('regions', 'API\Regions@index');
 Route::get('regions/{region}', 'API\Regions\Campsites@index');
 Route::get('campsites/{campsite}', 'API\Campsites@show');
 Route::get('campsites/{campsite}/reviews', 'API\Campsites\Reviews@index');
+Route::get('amenities', 'API\Amenities@index');
