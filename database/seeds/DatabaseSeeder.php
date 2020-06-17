@@ -398,28 +398,28 @@ class DatabaseSeeder extends Seeder
             ['amenity_name' => 'Swimming pool']
         ]);
 
-        // DB::table('campsite_amenity')->insert([
-        //     [
-        //         "campsite_id" => 1,
-        //         "amenity_id" => 1
-        //     ],
-        //     [
-        //         "campsite_id" => 1,
-        //         "amenity_id" => 2
-        //     ],
-        //     [
-        //         "campsite_id" => 2,
-        //         "amenity_id" => 1
-        //     ],
-        //     [
-        //         "campsite_id" => 2,
-        //         "amenity_id" => 2
-        //     ]
-        // ]);
+        
+        
+        // $campsite = Campsite::find(1);
 
-        $campsite = Campsite::find(1);
+        // $campsite->amenities()->sync([1, 2, 3]);
 
-        $campsite->amenities()->sync([1, 2, 3]);
+        $campsites = Campsite::all();
+
+        foreach ($campsites as $campsite) {
+            
+            $numbers = [];
+            
+            while(count($numbers) < 10) {
+                $number = rand(1, 21);
+                $exists = in_array($number, $numbers);
+                if(!$exists) {
+                    $numbers[] = rand(1, 21);
+                }
+            }
+            
+            $campsite->amenities()->sync($numbers);
+        }
 
 
     }
