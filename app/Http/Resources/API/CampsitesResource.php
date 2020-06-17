@@ -23,7 +23,6 @@ class CampsitesResource extends JsonResource
             "address" => $this->address,
             "town_city" => $this->town_city,
             "postcode" => $this->postcode,
-            "amenities" => $this->formatAmenities(),
             "rating" => +$this->rating,
             "contact_no" => $this->contact_no,
             "contact_email" => $this->contact_email,
