@@ -14,10 +14,14 @@ class RegionResource extends JsonResource
      */
     public function toArray($request)
     {
+        
+        dd($this->amenities);
+
         return [
             "id" => $this->id,
             "campsite_name" => $this->campsite_name,
             "price" => $this->formatPrice(),
+            "amenities" => $this->amenities->pluck("amenity_name"),
             "town_city" => $this->town_city,
             "rating" => +$this->rating,
             "img" => $this->img

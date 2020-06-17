@@ -3,6 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use App\Amenity;
 
 class Campsite extends Model
 {
@@ -17,6 +18,11 @@ class Campsite extends Model
     public function reviews()
     {
         return $this->hasMany(Review::class);
+    }
+
+    public function article()
+    {
+        return $this->belongsToMany(Amenity::class);
     }
 
     public function formatAmenities()
