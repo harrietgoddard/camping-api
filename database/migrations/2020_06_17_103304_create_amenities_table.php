@@ -18,7 +18,7 @@ class CreateAmenitiesTable extends Migration
             $table->string("amenity_name", 50);
         });
 
-        Schema::create("campsite_amenity", function (Blueprint $table) {
+        Schema::create("amenity_campsite", function (Blueprint $table) {
 
             $table->id();
 
@@ -39,7 +39,7 @@ class CreateAmenitiesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('campsite_amenity');
+        Schema::dropIfExists('amenity_campsite');
         
         Schema::dropIfExists('amenities');
     }

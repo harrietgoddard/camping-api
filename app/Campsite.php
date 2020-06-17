@@ -20,7 +20,7 @@ class Campsite extends Model
         return $this->hasMany(Review::class);
     }
 
-    public function article()
+    public function amenities()
     {
         return $this->belongsToMany(Amenity::class);
     }
@@ -33,5 +33,14 @@ class Campsite extends Model
     public function formatPrice()
     {
         return "£" . number_format($this->price, 2, '.', '');
+    }
+
+    public function addAmenities(array $number) : Campsite
+    {
+        $amenities = Amenity::find($number);
+
+        $this->amenities()->sync($amenities->pluck('id'));
+
+        return $this;
     }
 }

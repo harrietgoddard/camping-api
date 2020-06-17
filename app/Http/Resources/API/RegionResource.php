@@ -14,8 +14,6 @@ class RegionResource extends JsonResource
      */
     public function toArray($request)
     {
-        
-        dd($this->amenities);
 
         return [
             "id" => $this->id,

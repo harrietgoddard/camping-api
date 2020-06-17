@@ -14,11 +14,13 @@ class CampsitesResource extends JsonResource
      */
     public function toArray($request)
     {
+        
         return [
             "id" => $this->id,
             "region_id" => $this->region_id,
             "campsite_name" => $this->campsite_name,
             "price" => $this->formatPrice(),
+            "amenities" => $this->amenities->pluck("amenity_name"),
             "description" => $this->description,
             "address" => $this->address,
             "town_city" => $this->town_city,

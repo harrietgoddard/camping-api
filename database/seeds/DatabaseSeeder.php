@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use Carbon\Carbon;
+use App\Campsite;
 
 class DatabaseSeeder extends Seeder
 {
@@ -372,6 +373,54 @@ class DatabaseSeeder extends Seeder
                 'created_at' => Carbon::now()->format('Y-m-d H:i:s')
             ],
         ]);
+
+        DB::table('amenities')->insert([
+            ['amenity_name' => 'Drinking water'],
+            ['amenity_name' => 'BBQ'],
+            ['amenity_name' => 'Showers'],
+            ['amenity_name' => 'Laundry'],
+            ['amenity_name' => 'Toilets'],
+            ['amenity_name' => 'Wifi'],
+            ['amenity_name' => 'Kitchen'],
+            ['amenity_name' => 'Cutlery and crockery'],
+            ['amenity_name' => 'Caravan power'],
+            ['amenity_name' => 'Household power'],
+            ['amenity_name' => 'Lounge'],
+            ['amenity_name' => 'Picnic tables'],
+            ['amenity_name' => 'Tent sites'],
+            ['amenity_name' => 'Caravan sites'],
+            ['amenity_name' => 'Dump station'],
+            ['amenity_name' => 'Pets welcome'],
+            ['amenity_name' => 'Playground'],
+            ['amenity_name' => 'Wheelchair access'],
+            ['amenity_name' => 'Cards accepted'],
+            ['amenity_name' => 'Firepits'],
+            ['amenity_name' => 'Swimming pool']
+        ]);
+
+        // DB::table('campsite_amenity')->insert([
+        //     [
+        //         "campsite_id" => 1,
+        //         "amenity_id" => 1
+        //     ],
+        //     [
+        //         "campsite_id" => 1,
+        //         "amenity_id" => 2
+        //     ],
+        //     [
+        //         "campsite_id" => 2,
+        //         "amenity_id" => 1
+        //     ],
+        //     [
+        //         "campsite_id" => 2,
+        //         "amenity_id" => 2
+        //     ]
+        // ]);
+
+        $campsite = Campsite::find(1);
+
+        $campsite->amenities()->sync([1, 2, 3]);
+
 
     }
 }
