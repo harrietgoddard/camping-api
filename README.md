@@ -53,6 +53,8 @@ Will return campsite with the given id
 * `rating`: integer between 1 and 5
 * `contact_no`: string
 * `contact_email`: string
+* `latitude`: float
+* `longitude`: float
 
 ### Reviews
 
