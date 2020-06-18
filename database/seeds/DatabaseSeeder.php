@@ -38,8 +38,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "01326290596",
                 "contact_email" => "info@henryscampsite.co.uk",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => -49.968458,
-                "longitude" => 49.968458
+                "latitude" => 49.968458,
+                "longitude" => -5.205979
             ],
             [
                 "region_id" => 1,
@@ -53,8 +53,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "0172674837",
                 "contact_email" => "info@cornwallfarmcamping.co.uk",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 50.311815,
+                "longitude" => -4.842321
             ],
             [
                 "region_id" => 1,
@@ -68,8 +68,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "01271882334",
                 "contact_email" => "relax@newberryvalleypark.co.uk",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 51.204250,
+                "longitude" => -4.042597
             ],
             [
                 "region_id" => 1,
@@ -83,8 +83,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "01749675247",
                 "contact_email" => "pinetreefarmcamping@gmail.com",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 51.198083,
+                "longitude" => -2.699759
             ],
 
             // South East campsites
@@ -100,8 +100,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "01765982347",
                 "contact_email" => "inwoodcamping@gmail.com",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 51.212775,
+                "longitude" => -1.129132
             ],
             [
                 "region_id" => 2,
@@ -115,8 +115,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "01296668455",
                 "contact_email" => "townfarmcampsite@gmail.com",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 51.839424,
+                "longitude" => -0.621526
             ],
             [
                 "region_id" => 2,
@@ -130,8 +130,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "07765363546",
                 "contact_email" => "enquiries@battenhurstandcairds.com",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 51.021927,
+                "longitude" => 0.390178
             ],
             [
                 "region_id" => 2,
@@ -145,8 +145,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "01843847142",
                 "contact_email" => "info@eastkentcamping.co.uk",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 51.375917,
+                "longitude" => 1.266181
             ],
 
             // West Midlands
@@ -162,8 +162,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "01981580275",
                 "contact_email" => "info@burhopefarmcampsite.co.uk",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 51.936112,
+                "longitude" => -2.794289
             ],
             [
                 "region_id" => 3,
@@ -177,8 +177,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "01432890243",
                 "contact_email" => "info@campingandcaravaningclub.co.uk",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 52.065322,
+                "longitude" => -2.545629
             ],
             [
                 "region_id" => 3,
@@ -192,8 +192,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "01562850909",
                 "contact_email" => "info@campingandcaravaningclub.co.uk",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 52.410431,
+                "longitude" => -2.247285
             ],
             [
                 "region_id" => 3,
@@ -207,8 +207,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "01886832821",
                 "contact_email" => "info@newlandmeadows.co.uk",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 52.141807,
+                "longitude" => -2.298195
             ],
 
             // East Midlands
@@ -224,8 +224,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "01507472374",
                 "contact_email" => "info@campingandcaravaningclub.co.uk",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 53.330377,
+                "longitude" => 0.251540
             ],
             [
                 "region_id" => 4,
@@ -239,8 +239,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "01586459862",
                 "contact_email" => "info@campingandcaravaningclub.co.uk",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 53.152926,
+                "longitude" => -1.509955
             ],
             [
                 "region_id" => 4,
@@ -254,8 +254,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "01623823132",
                 "contact_email" => "info@sherwoodforestholidaypark.co.uk",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 53.180307,
+                "longitude" => -1.113732
             ],
             [
                 "region_id" => 4,
@@ -269,8 +269,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "07538581476",
                 "contact_email" => "info@littleoakcamping.co.uk",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 53.309560,
+                "longitude" => -0.921679
             ],
 
             // East Anglia
@@ -286,8 +286,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "01473736201",
                 "contact_email" => "info@newbournecampsite.co.uk",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 52.033911,
+                "longitude" => 1.297805
             ],
             [
                 "region_id" => 5,
@@ -301,8 +301,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "01432890243",
                 "contact_email" => "swattesfield@gmail.com",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 52.304062,
+                "longitude" => 1.060643
             ],
             [
                 "region_id" => 5,
@@ -316,8 +316,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "01362822109",
                 "contact_email" => "springfarmcampsite@yahoo.co.uk",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 52.623284,
+                "longitude" => 0.870180
             ],
             [
                 "region_id" => 5,
@@ -331,8 +331,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "07811440280",
                 "contact_email" => "bookings@hicklingcampsite.co.uk",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 52.745949,
+                "longitude" => 1.557255
             ],
 
 
@@ -349,8 +349,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "07903799793",
                 "contact_email" => "hello.willowspringscampsite@gmail.com",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 51.682282,
+                "longitude" => -3.628963
             ],
             [
                 "region_id" => 6,
@@ -364,8 +364,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "1834818500",
                 "contact_email" => "meadowfarmtenby@gmail.com",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 51.681589,
+                "longitude" => -4.701748
             ],
             [
                 "region_id" => 6,
@@ -379,8 +379,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "07765077248",
                 "contact_email" => "info@maesybryncamping.co.uk",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 53.158344,
+                "longitude" => -3.742539
             ],
             [
                 "region_id" => 6,
@@ -394,8 +394,8 @@ class DatabaseSeeder extends Seeder
                 "contact_no" => "01766890288",
                 "contact_email" => "beddgelert.location@forestholidays.co.uk",
                 "img" => "https://source.unsplash.com/300x300/?camping",
-                "latitude" => 49.968458,
-                "longitude" => 49.968458
+                "latitude" => 53.020495,
+                "longitude" => -4.120466
             ],
         ]);
 
