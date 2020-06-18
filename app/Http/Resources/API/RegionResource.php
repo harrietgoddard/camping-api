@@ -22,7 +22,9 @@ class RegionResource extends JsonResource
             "amenities" => $this->amenities->pluck("amenity_name"),
             "town_city" => $this->town_city,
             "rating" => +$this->rating,
-            "img" => $this->img
+            "img" => $this->img,
+            "latitude" => +$this->latitude,
+            "longitude" => +$this->longitude
         ];
     }
 }
