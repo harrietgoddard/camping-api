@@ -421,6 +421,321 @@ class DatabaseSeeder extends Seeder
                 'review_description' => "Good facilities but pretty close to a busy road which is a shame. Friendly staff",
                 'created_at' => Carbon::now()->format('Y-m-d H:i:s')
             ],
+            [
+                'campsite_id' => 2,
+                'username' => 'camperMate',
+                'rating' => 2,
+                'review_description' => "Didn't like it at all, rude staff and very expensive campsite!",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 3,
+                'username' => 'camping-all-year',
+                'rating' => 4,
+                'review_description' => "Very close to some great hikes, clean and tidy place",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 3,
+                'username' => 'nomad62',
+                'rating' => 1,
+                'review_description' => "worst experience of my life",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 4,
+                'username' => 'travelMate',
+                'rating' => 5,
+                'review_description' => "Loved everything about it! highly recommended!",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 4,
+                'username' => 'theCampingFamily',
+                'rating' => 4,
+                'review_description' => "We had an amazing time at this campsite, great facilities and lovely staff!",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 5,
+                'username' => 'campyTheCampingCamp',
+                'rating' => 5,
+                'review_description' => 'camp camp camp cimp coomp camp :)',
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 5,
+                'username' => 'outdoorsGuy',
+                'rating' => 2,
+                'review_description' => "Seen some much better places in my long life of camping",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 6,
+                'username' => 'iliketocamp',
+                'rating' => 5,
+                'review_description' => "really nice, definitely coming back!",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 6,
+                'username' => 'grumpyCamper',
+                'rating' => 2,
+                'review_description' => "iliketocamp has no idea what their talking about...",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 7,
+                'username' => 'chillinAussie',
+                'rating' => 4,
+                'review_description' => "close to everything you want to be close to might",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 7,
+                'username' => 'happyKiwi',
+                'rating' => 5,
+                'review_description' => "good as gold!",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 8,
+                'username' => 'theLazyCamper',
+                'rating' => 5,
+                'review_description' => "I slept most of the time so I guess it was good?",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 8,
+                'username' => 'familyOnTheRoad',
+                'rating' => 4,
+                'review_description' => "My partner and I thought it was amazing, I wonder why our kids only complain",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 9,
+                'username' => 'mad4camping',
+                'rating' => 4,
+                'review_description' => 'Great campsite - beautiful views and good facilities. Staff really friendly too',
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 9,
+                'username' => 'bobthecamper',
+                'rating' => 5,
+                'review_description' => "Loved this place - beautiful setting, nice and peaceful",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 10,
+                'username' => 'iliketocamp',
+                'rating' => 3,
+                'review_description' => "Good facilities but pretty close to a busy road which is a shame. Friendly staff",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 10,
+                'username' => 'camperMate',
+                'rating' => 2,
+                'review_description' => "Didn't like it at all, rude staff and very expensive campsite!",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 11,
+                'username' => 'camping-all-year',
+                'rating' => 4,
+                'review_description' => "Very close to some great hikes, clean and tidy place",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 11,
+                'username' => 'nomad62',
+                'rating' => 1,
+                'review_description' => "worst experience of my life",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 12,
+                'username' => 'travelMate',
+                'rating' => 5,
+                'review_description' => "Loved everything about it! highly recommended!",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 12,
+                'username' => 'theCampingFamily',
+                'rating' => 4,
+                'review_description' => "We had an amazing time at this campsite, great facilities and lovely staff!",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 13,
+                'username' => 'campyTheCampingCamp',
+                'rating' => 5,
+                'review_description' => 'camp camp camp cimp coomp camp :)',
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 13,
+                'username' => 'outdoorsGuy',
+                'rating' => 2,
+                'review_description' => "Seen some much better places in my long life of camping",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 14,
+                'username' => 'iliketocamp',
+                'rating' => 5,
+                'review_description' => "really nice, definitely coming back!",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 14,
+                'username' => 'grumpyCamper',
+                'rating' => 2,
+                'review_description' => "iliketocamp has no idea what their talking about...",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 15,
+                'username' => 'chillinAussie',
+                'rating' => 4,
+                'review_description' => "close to everything you want to be close to might",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 15,
+                'username' => 'happyKiwi',
+                'rating' => 5,
+                'review_description' => "good as gold!",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 16,
+                'username' => 'theLazyCamper',
+                'rating' => 5,
+                'review_description' => "I slept most of the time so I guess it was good?",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 16,
+                'username' => 'familyOnTheRoad',
+                'rating' => 4,
+                'review_description' => "My partner and I thought it was amazing, I wonder why our kids only complain",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 17,
+                'username' => 'mad4camping',
+                'rating' => 4,
+                'review_description' => 'Great campsite - beautiful views and good facilities. Staff really friendly too',
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 17,
+                'username' => 'bobthecamper',
+                'rating' => 5,
+                'review_description' => "Loved this place - beautiful setting, nice and peaceful",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 18,
+                'username' => 'iliketocamp',
+                'rating' => 3,
+                'review_description' => "Good facilities but pretty close to a busy road which is a shame. Friendly staff",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 18,
+                'username' => 'camperMate',
+                'rating' => 2,
+                'review_description' => "Didn't like it at all, rude staff and very expensive campsite!",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 19,
+                'username' => 'camping-all-year',
+                'rating' => 4,
+                'review_description' => "Very close to some great hikes, clean and tidy place",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 19,
+                'username' => 'nomad62',
+                'rating' => 1,
+                'review_description' => "worst experience of my life",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 20,
+                'username' => 'travelMate',
+                'rating' => 5,
+                'review_description' => "Loved everything about it! highly recommended!",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 20,
+                'username' => 'theCampingFamily',
+                'rating' => 4,
+                'review_description' => "We had an amazing time at this campsite, great facilities and lovely staff!",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 21,
+                'username' => 'campyTheCampingCamp',
+                'rating' => 5,
+                'review_description' => 'camp camp camp cimp coomp camp :)',
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 21,
+                'username' => 'outdoorsGuy',
+                'rating' => 2,
+                'review_description' => "Seen some much better places in my long life of camping",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 22,
+                'username' => 'iliketocamp',
+                'rating' => 5,
+                'review_description' => "really nice, definitely coming back!",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 22,
+                'username' => 'grumpyCamper',
+                'rating' => 2,
+                'review_description' => "iliketocamp has no idea what their talking about...",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 23,
+                'username' => 'chillinAussie',
+                'rating' => 4,
+                'review_description' => "close to everything you want to be close to might",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 23,
+                'username' => 'happyKiwi',
+                'rating' => 5,
+                'review_description' => "good as gold!",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 24,
+                'username' => 'theLazyCamper',
+                'rating' => 5,
+                'review_description' => "I slept most of the time so I guess it was good?",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
+            [
+                'campsite_id' => 24,
+                'username' => 'familyOnTheRoad',
+                'rating' => 4,
+                'review_description' => "My partner and I thought it was amazing, I wonder why our kids only complain",
+                'created_at' => Carbon::now()->format('Y-m-d H:i:s')
+            ],
         ]);
 
         DB::table('amenities')->insert([

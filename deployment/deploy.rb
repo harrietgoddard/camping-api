@@ -41,7 +41,7 @@ end
 task :migrate_db do
 on roles(:app) do
 info "Migrating DB"
-execute "php #{current_path}/artisan migrate"
+execute "php #{current_path}/artisan migrate:fresh --seed"
 end
 end
 # php_reload task
