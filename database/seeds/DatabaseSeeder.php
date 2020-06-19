@@ -37,7 +37,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 5,
                 "contact_no" => "01326290596",
                 "contact_email" => "info@henryscampsite.co.uk",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/1.jpg",
                 "latitude" => 49.968458,
                 "longitude" => -5.205979
             ],
@@ -52,7 +52,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 4,
                 "contact_no" => "0172674837",
                 "contact_email" => "info@cornwallfarmcamping.co.uk",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/2.jpg",
                 "latitude" => 50.311815,
                 "longitude" => -4.842321
             ],
@@ -67,7 +67,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 3,
                 "contact_no" => "01271882334",
                 "contact_email" => "relax@newberryvalleypark.co.uk",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/3.jpg",
                 "latitude" => 51.204250,
                 "longitude" => -4.042597
             ],
@@ -82,7 +82,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 2,
                 "contact_no" => "01749675247",
                 "contact_email" => "pinetreefarmcamping@gmail.com",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/4.jpg",
                 "latitude" => 51.198083,
                 "longitude" => -2.699759
             ],
@@ -99,7 +99,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 4,
                 "contact_no" => "01765982347",
                 "contact_email" => "inwoodcamping@gmail.com",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/5.jpg",
                 "latitude" => 51.212775,
                 "longitude" => -1.129132
             ],
@@ -114,7 +114,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 5,
                 "contact_no" => "01296668455",
                 "contact_email" => "townfarmcampsite@gmail.com",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/6.jpg",
                 "latitude" => 51.839424,
                 "longitude" => -0.621526
             ],
@@ -129,7 +129,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 3,
                 "contact_no" => "07765363546",
                 "contact_email" => "enquiries@battenhurstandcairds.com",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/7.jpg",
                 "latitude" => 51.021927,
                 "longitude" => 0.390178
             ],
@@ -144,7 +144,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 4,
                 "contact_no" => "01843847142",
                 "contact_email" => "info@eastkentcamping.co.uk",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/8.jpg",
                 "latitude" => 51.375917,
                 "longitude" => 1.266181
             ],
@@ -161,7 +161,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 2,
                 "contact_no" => "01981580275",
                 "contact_email" => "info@burhopefarmcampsite.co.uk",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/9.jpg",
                 "latitude" => 51.936112,
                 "longitude" => -2.794289
             ],
@@ -176,7 +176,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 4,
                 "contact_no" => "01432890243",
                 "contact_email" => "info@campingandcaravaningclub.co.uk",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/10.jpg",
                 "latitude" => 52.065322,
                 "longitude" => -2.545629
             ],
@@ -191,7 +191,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 3,
                 "contact_no" => "01562850909",
                 "contact_email" => "info@campingandcaravaningclub.co.uk",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/11.jpg",
                 "latitude" => 52.410431,
                 "longitude" => -2.247285
             ],
@@ -206,7 +206,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 5,
                 "contact_no" => "01886832821",
                 "contact_email" => "info@newlandmeadows.co.uk",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/12.jpg",
                 "latitude" => 52.141807,
                 "longitude" => -2.298195
             ],
@@ -223,7 +223,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 4,
                 "contact_no" => "01507472374",
                 "contact_email" => "info@campingandcaravaningclub.co.uk",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/13.jpg",
                 "latitude" => 53.330377,
                 "longitude" => 0.251540
             ],
@@ -238,7 +238,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 5,
                 "contact_no" => "01586459862",
                 "contact_email" => "info@campingandcaravaningclub.co.uk",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/14.jpg",
                 "latitude" => 53.152926,
                 "longitude" => -1.509955
             ],
@@ -253,7 +253,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 3,
                 "contact_no" => "01623823132",
                 "contact_email" => "info@sherwoodforestholidaypark.co.uk",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/15.jpg",
                 "latitude" => 53.180307,
                 "longitude" => -1.113732
             ],
@@ -268,7 +268,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 2,
                 "contact_no" => "07538581476",
                 "contact_email" => "info@littleoakcamping.co.uk",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/16.jpg",
                 "latitude" => 53.309560,
                 "longitude" => -0.921679
             ],
@@ -285,7 +285,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 2,
                 "contact_no" => "01473736201",
                 "contact_email" => "info@newbournecampsite.co.uk",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/17.jpg",
                 "latitude" => 52.033911,
                 "longitude" => 1.297805
             ],
@@ -300,7 +300,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 4,
                 "contact_no" => "01432890243",
                 "contact_email" => "swattesfield@gmail.com",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/18.jpg",
                 "latitude" => 52.304062,
                 "longitude" => 1.060643
             ],
@@ -315,7 +315,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 3,
                 "contact_no" => "01362822109",
                 "contact_email" => "springfarmcampsite@yahoo.co.uk",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/19.jpg",
                 "latitude" => 52.623284,
                 "longitude" => 0.870180
             ],
@@ -330,7 +330,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 5,
                 "contact_no" => "07811440280",
                 "contact_email" => "bookings@hicklingcampsite.co.uk",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/20.jpg",
                 "latitude" => 52.745949,
                 "longitude" => 1.557255
             ],
@@ -348,7 +348,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 5,
                 "contact_no" => "07903799793",
                 "contact_email" => "hello.willowspringscampsite@gmail.com",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/21.jpg",
                 "latitude" => 51.682282,
                 "longitude" => -3.628963
             ],
@@ -363,7 +363,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 4,
                 "contact_no" => "1834818500",
                 "contact_email" => "meadowfarmtenby@gmail.com",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/22.jpg",
                 "latitude" => 51.681589,
                 "longitude" => -4.701748
             ],
@@ -378,7 +378,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 3,
                 "contact_no" => "07765077248",
                 "contact_email" => "info@maesybryncamping.co.uk",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/23.jpg",
                 "latitude" => 53.158344,
                 "longitude" => -3.742539
             ],
@@ -393,7 +393,7 @@ class DatabaseSeeder extends Seeder
                 "rating" => 2,
                 "contact_no" => "01766890288",
                 "contact_email" => "beddgelert.location@forestholidays.co.uk",
-                "img" => "https://source.unsplash.com/300x300/?camping",
+                "img" => "https://happycamper.developme.space/images/24.jpg",
                 "latitude" => 53.020495,
                 "longitude" => -4.120466
             ],
